@@ -1,13 +1,11 @@
-*/node_modules/
-nodeclient-fileuploader/node_modules/
-
-README.md
 **/target/
+resource-server/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
-!**/src/test/**/target/
+!**/src/test/\*\*/target/
 
-### STS ###
+### STS
+
 .apt_generated
 .classpath
 .factorypath
@@ -16,13 +14,15 @@ README.md
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+### IntelliJ IDEA
 
-### NetBeans ###
+.idea
+_.iws
+_.iml
+\*.ipr
+
+### NetBeans
+
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -32,5 +32,6 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
+### VS Code
+
 .vscode/
